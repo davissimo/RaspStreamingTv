@@ -16,7 +16,7 @@ var HotSpot = function() {
                 return;
             }
 
-            // todo ref: extract
+            //todo ref: extract
             var isFonSpot = response.request.href == config.fonRedirectUrl;
 
             if (isFonSpot) {

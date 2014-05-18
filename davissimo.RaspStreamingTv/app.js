@@ -14,7 +14,7 @@ var l = hotSpot.login();
 
 l.on('done', getChannelList);
 l.on('error', function(error) { 
-    handleError(messages.fonError, error);
+    handleError(messages.hotSpotError, error);
 });
 
 function getChannelList() {
