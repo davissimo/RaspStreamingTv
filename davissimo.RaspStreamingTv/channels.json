@@ -1,0 +1,52 @@
+[
+  {
+    "StreamType": "rtmp",
+    "Url": "-r \"rtmpe://217.160.130.132:1935/live\" -v -a \"live\" -W \"http://www.1tv.am/MediaPlayback11.swf\" -p \"http://www.1tv.am/en/live\" -y \"livestream\"",
+    "Title": "ARM 1"
+  },
+  {
+    "StreamType": "mms",
+    "Url": "http://38.117.88.77/Armenia1?baseURLs=http://www.afnl.com/FirefoxHTMLShellOpenCommand&amp;MSWMExt=.asf%22%20type=%22application/x-mplayer2%22",
+    "Title": "ARM 1"
+  },
+  {
+    "StreamType": "rtmp",
+    "Url": "-r \"rtmp://shanttv.cdnvideo.ru/shanttv-live\" -v -a \"shanttv-live\" -W \"http://www.haykakantv.com/rad/player.swf\" -p \"http://www.haykakantv.com/page/shant-tv-online-live\" -y \"shanttv.sdp\"",
+    "Title": "Shant TV"
+  },
+  {
+    "StreamType": "mms",
+    "Url": "http://8.21.48.54/EUArmenia?baseURLs=http://www.afnl.com/FirefoxHTMLShellOpenCommand&MSWMExt=.asf%22%20type=%22application/x-mplayer2%22",
+    "Title": "Armenia TV"
+  },
+  {
+    "StreamType": "mms",
+    "Url": "http://38.117.88.76/EUArmenia?TICKET=f778d5ee31c2584619c668ea212efb32%7C91473694&amp;MSWMExt=.asf%22%20type=%22application/x-mplayer2%22",
+    "Title": "Armenia TV"
+  },
+  {
+    "StreamType": "rtmp",
+    "Url": "-r \"rtmp://212-70.livestream.com/mogulus-stream-edge/yerkirmedia\" -v -a \"mogulus-stream-edge/yerkirmedia\" -W \"http://cdn.livestream.com/chromelessPlayer/v21/playerapi.swf\" -p \"http://www.livestream.com/embed/yerkirmedia\" -y \"rtmp://212-91.livestream.com/affiliateStream/yerkirmedia/6c69766572657065617465723a72746d703a2f2f3231322d39312e6c69766573747265616d2e636f6d2f6d6f67756c75732f7965726b69726d656469612f7965726b69726d65646961\"",
+    "Title": "Yerkir Media"
+  },
+  {
+    "StreamType": "rtmp",
+    "Url": "-r \"rtmp://ktv.s4c.link/live/\" -v -a \"live\" -W \"http://p.jwpcdn.com/6/4/jwplayer.flash.swf\" -p \"http://www.haykakantv.com/page/watch-kentrontv-online-live\" -y \"livestream\"",
+    "Title": "Kentron TV"
+  },
+  {
+    "StreamType": "mms",
+    "Url": "http://38.117.88.77/KentronTV?TICKET=f778d5ee31c2584619c668ea212efb32%7C91473694&amp;MSWMExt=.asf%22%20type=%22application/x-mplayer2%22",
+    "Title": "Kentron TV"
+  },
+  {
+    "StreamType": "mms",
+    "Url": "mms://204.174.105.58/wmtencoder/artn.wmv",
+    "Title": "ARTN Shant"
+  },
+  {
+    "StreamType": "mms",
+    "Url": "http://38.117.88.77/ARTN?TICKET=f778d5ee31c2584619c668ea212efb32%7C91473694&amp;MSWMExt=.asf%22%20type=%22application/x-mplayer2%22",
+    "Title": "ARTN Shant"
+  }
+]
