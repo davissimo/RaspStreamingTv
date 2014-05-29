@@ -1,14 +1,13 @@
 ﻿var HotSpot = require('./fon-hotspot.js');
 var ChannelList = require('./channel-list.js');
 var Remote = require('./keyboard-remote.js');
-//var Player = require('./player.js');
+var Player = require('./player.js');
 var messages = require('./messages.json');
 
 var hotSpot = new HotSpot();
 var channelList = new ChannelList();
 var remote = new Remote();
-//var player = new Player();
-//todo: Player (output to omxplayer)
+var player = new Player();
 
 var l = hotSpot.login();
 
@@ -56,7 +55,7 @@ function initialize(channels) {
     });
 
     function playChannel() {
-        console.log(channelIndex);
-        //player.play(channels[channelIndex]);
+        var channel = channels[channelIndex];
+        player.play(channel);
     }
 }

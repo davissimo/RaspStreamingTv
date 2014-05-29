@@ -27,7 +27,7 @@ var HotSpot = function() {
                              'commit': 'Login'}},
                       function (error, response, body) {
                           var hasSucceeded = !error && 
-                              response.request.href == config.confirmationUrl
+                              response.request.href == config.fonConfirmationUrl
 
                           if (hasSucceeded)
                               emitter.emit('done');

@@ -35,6 +35,7 @@
     <Compile Include="config.js" />
     <Compile Include="fon-hotspot.js" />
     <Compile Include="keyboard-remote.js" />
+    <Compile Include="player.js" />
     <Content Include="channels.json" />
     <Content Include="messages.json" />
     <Content Include="package.json" />
